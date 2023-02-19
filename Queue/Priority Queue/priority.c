@@ -65,7 +65,7 @@ void insert(pqueue *p,int key){
           else{
 
             int x = p->A[1];
-            P->A[1]=p->A[p->cnt];
+            p->A[1]=p->A[p->cnt];
             p->cnt -- ;
             int iter = 1;
 
