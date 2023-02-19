@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-                            // kuyrugu linked listler vasýtasýyla olusturma.
+                            // kuyrugu linked listler vasï¿½tasï¿½yla olusturma.
 typedef struct node {
 
         int data;
     struct node *next;
 
 }node;
-    // front ve rear (listenin basýný ve sonun gösteren pointerlar) baþta null olarak belirtilir.
+    // front ve rear (listenin basï¿½nï¿½ ve sonun gï¿½steren pointerlar) baï¿½ta null olarak belirtilir.
 
 node *front = NULL;
 
@@ -17,7 +17,7 @@ node *rear = NULL ;
 
 
 void enqueue(int x){
-                        // LÝSTE BOSKEN.
+                        // Lï¿½STE BOSKEN.
    if(front == NULL){
 
     node *temp= (node *)malloc(sizeof(node ));
