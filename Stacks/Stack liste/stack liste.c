@@ -8,7 +8,7 @@ int data ;
 
 }node;
 
-    node *top = NULL; // head gibi düsün.
+    node *top = NULL; // head gibi dï¿½sï¿½n.
 
 void push(int x){
 
@@ -111,11 +111,6 @@ void main(){
         }
 
     }
-
-
-
-
-
 
 
 }

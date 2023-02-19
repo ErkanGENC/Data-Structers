@@ -49,7 +49,7 @@ printf("==>TOP");
 
 }
 
-int peek(stack *stk){       // top 'ýn bulundugu yerin degeri.
+int peek(stack *stk){       // top 'ï¿½n bulundugu yerin degeri.
 
     return stk->data[stk->top];
 }
@@ -95,3 +95,4 @@ void main(){
 
    }
 }
+
